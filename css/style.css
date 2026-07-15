@@ -40,3 +40,225 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     
 }
+
+body {
+    background-image: url("../images/bacgroundimage.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    height: 150vh;
+    
+}
+
+.hed-1 {
+    
+    background: linear-gradient(#0005, #0005), url('car.jpg') center/cover;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+h1 { font-size: 3rem; margin-bottom: 15px; max-width: 700px; }
+p { font-size: 1.1rem; max-width: 500px; opacity: 0.9; }
+
+
+
+.features-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.feature-card {
+  background: #ffffff;
+  border: 1px solid #eef2f5;
+  border-radius: 4px; 
+  padding: 40px 30px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.02); 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.icon-box {
+  width: 60px;
+  height: 60px;
+  background-color: #deebf7; 
+  color: #2b5c8f; 
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  margin-bottom: 24px;
+}
+
+
+.feature-card h3 {
+  color: #0d233a; 
+  font-size: 1.35rem;
+  margin: 0 0 12px 0;
+  font-weight: 600;
+}
+
+
+.feature-card p {
+  color: #616e7c; 
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.hed-2{
+    background: linear-gradient(rgba(228, 228, 228, 0.333), #0005), url('car.jpg') center/cover;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+h2{font-size: 3rem; margin-bottom: 15px; max-width: 700px;}
+p{ font-size: 1.1rem; max-width: 500px; opacity: 0.9;}
+
+
+/* Base Layout Grid */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+/* Main Card Styling */
+.car-card {
+  background: #ffffff;
+  border: 1px solid #eef2f5;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.01);
+  display: flex;
+  flex-direction: column;
+}
+
+/* Image Container + Absolute Badge positioning */
+.image-container {
+  position: relative;
+  width: 100%;
+  padding-top: 66.67%; /* Fixed 3:2 Aspect Ratio aspect ratio */
+}
+
+.image-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.badge {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: rgba(255, 255, 255, 0.95);
+  color: #0d233a;
+  font-size: 0.65rem;
+  font-weight: 700;
+  padding: 6px 12px;
+  border-radius: 4px;
+  border: 1px solid #eef2f5;
+  letter-spacing: 0.5px;
+}
+
+/* Text Content Area */
+.card-content {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.car-title {
+  font-size: 1.4rem;
+  color: #111111;
+  margin: 0 0 6px 0;
+  font-weight: 700;
+}
+
+.car-subtitle {
+  font-size: 0.95rem;
+  color: #666666;
+  margin: 0 0 20px 0;
+}
+
+/* Specification Tags */
+.specs-row {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.spec-pill {
+  background: #f1f3f5;
+  color: #666666;
+  font-size: 0.75rem;
+  padding: 6px 10px;
+  border-radius: 4px;
+}
+
+/* Footer Section (Price + Button) */
+.footer-row {
+  margin-top: auto; /* Pushes the row to the very bottom of the card */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #f1f3f5;
+  padding-top: 20px;
+}
+
+.price {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #0b2d49;
+}
+
+.btn-details {
+  text-decoration: none;
+  color: #666666;
+  font-size: 0.85rem;
+  font-weight: 600;
+  border: 1px solid #b8c2cc;
+  padding: 8px 18px;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.btn-details:hover {
+  background: #0b2d49;
+  color: white;
+  border-color: #0b2d49;
+}
