@@ -92,9 +92,9 @@ p {
 
 
 .feature-card {
-  background: #ffffff;
+  background: #cfcdcd;
   border: 1px solid #eef2f5;
-  border-radius: 4px;
+  border-radius: 15px;
   padding: 40px 30px;
   text-align: center;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.02);
@@ -107,7 +107,7 @@ p {
 .icon-box {
   width: 60px;
   height: 60px;
-  background-color: #deebf7;
+  background-color: #174d80;
   color: #2b5c8f;
   border-radius: 12px;
   display: flex;
@@ -122,15 +122,16 @@ p {
   color: #0d233a;
   font-size: 1.35rem;
   margin: 0 0 12px 0;
-  font-weight: 600;
+  font-weight: 660;
 }
 
 
 .feature-card p {
-  color: #616e7c;
+  color: #000000;
   font-size: 0.95rem;
   line-height: 1.6;
   margin: 0;
+  font-weight: 400;
 }
 
 .hed-2 {
@@ -172,13 +173,14 @@ p {
 
 /* Main Card Styling */
 .car-card {
-  background: #ffffff;
+  background: #d6d1d1;
   border: 1px solid #eef2f5;
   border-radius: 4px;
   overflow: hidden;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.01);
   display: flex;
   flex-direction: column;
+  border-radius: 3%;
 }
 
 /* Image Container + Absolute Badge positioning */
@@ -229,7 +231,7 @@ p {
 
 .car-subtitle {
   font-size: 0.95rem;
-  color: #666666;
+  color: #000000;
   margin: 0 0 20px 0;
 }
 
@@ -243,7 +245,7 @@ p {
 
 .spec-pill {
   background: #f1f3f5;
-  color: #666666;
+  color: #000000;
   font-size: 0.75rem;
   padding: 6px 10px;
   border-radius: 4px;
@@ -268,10 +270,10 @@ p {
 
 .btn-details {
   text-decoration: none;
-  color: #666666;
+  color: #000000;
   font-size: 0.85rem;
   font-weight: 600;
-  border: 1px solid #b8c2cc;
+  border: 1px solid #314b64;
   padding: 8px 18px;
   border-radius: 4px;
   transition: all 0.2s ease;
@@ -279,7 +281,7 @@ p {
 
 .btn-details:hover {
   background: #0b2d49;
-  color: white;
+  color: rgb(252, 252, 252);
   border-color: #0b2d49;
 }
 
