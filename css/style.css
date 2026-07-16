@@ -537,3 +537,248 @@ p {
 .cta-btn:hover {
   background-color: #f0f0f0;
 }
+
+
+
+
+/*Contact page*/
+/* 1. Container setup with the blue color tint overlay and background image */
+.contact-banner {
+  height: 550px;
+
+  /* Blends a rich blue overlay with your showroom background image */
+  background: linear-gradient(rgba(15, 34, 64, 0.85), rgba(15, 34, 64, 0.85)),
+    url("../images/contactbanner.jpg") center/cover no-repeat;
+
+  display: flex;
+  align-items: center;
+  padding-left: 8%;
+  color: #ffffff;
+  font-family: sans-serif;
+}
+
+
+.contact-content {
+  max-width: 550px;
+}
+
+/* 3. Heading  */
+.contact-content h1 {
+  font-size: 74px;
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+/* 4. Paragraph  */
+.contact-content p {
+  font-size: 20px;
+  line-height: 1.6;
+  color: #e0e6ed;
+  margin: 0;
+}
+
+
+
+
+/*Sectoin two (cards)*/
+/*  Main outer section container */
+.contact-info-section {
+  background-color: #f4f6f9;
+  padding: 60px 20px;
+  font-family: sans-serif;
+}
+
+/*  Flex wrapper to hold cards side-by-side */
+.cards-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  max-width: 1100px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+/*  white  card */
+.info-card {
+  background-color: #c7bebe;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 40px 20px;
+  text-align: center;
+  flex: 1;
+  min-width: 300px;
+  max-width: 340px;
+
+}
+
+/* blue rounded square for the icons */
+.icon-square {
+  background-color: #0b1a30;
+  color: #f3eaea;
+  width: 55px;
+  height: 55px;
+  border-radius: 12px;
+  margin: 0 auto 25px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+}
+
+/* Typography styling */
+.info-card h3 {
+  color: #1d3861;
+  font-size: 29px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.info-card p {
+  color: #000000;
+  font-size: 19px;
+  margin: 6px 0;
+  line-height: 1.4;
+}
+
+/* Light gray styling for the bottom context line */
+.info-card .muted-text {
+  color: #000000;
+  margin-top: 8px;
+}
+
+
+
+
+/*section three (form)*/
+/*  Main background area layout */
+.form-section {
+  background-color: #ebeef3;
+  padding: 60px 20px;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+/* Outer wrapper limiting the overall scale */
+.form-wrapper {
+  width: 100%;
+  max-width: 750px;
+}
+
+/*  Top Header Alignment */
+.form-header {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.form-header h2 {
+  color: #0b1a30;
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.form-header p {
+  color: #405774;
+  font-size: 15px;
+  line-height: 1.5;
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+/*  The Central Form Container Box */
+.form-card {
+  background-color: #cfd1d4;
+  border: 1px solid #6c7683;
+  border-radius: 8px;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+/* Flexbox rows to position inputs side-by-side */
+.form-row {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+/* Individual layout controls for label + inputs */
+.form-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Makes standalone fields stretch full-width */
+.form-group.full-width {
+  margin-bottom: 20px;
+}
+
+/*  Inputs, Dropdowns, & Textarea Styling */
+.form-group label {
+  color: #00060e;
+  font-weight: bold;
+  font-size: 13px;
+  margin-bottom: 8px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  background-color: #e5edf5;
+  border: 1px solid #cbd7e6;
+  border-radius: 4px;
+  padding: 12px 14px;
+  font-size: 14px;
+  color: #333333;
+  outline: none;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+/* Subtle focus change when user clicks elements */
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  border-color: #0b1a30;
+  background-color: #ffffff;
+}
+
+/*text area*/
+.form-group textarea {
+  resize: vertical;
+}
+
+/* Submit Button */
+.submit-btn {
+  background-color: #0b1a30;
+  color: #ffffff;
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.2s ease;
+}
+
+.submit-btn:hover {
+  background-color: #152c4e;
+}
+
+
+.form-footer-text {
+  text-align: center;
+  font-size: 11px;
+  color: #000000;
+  margin-top: 20px;
+  line-height: 1.4;
+}
+
+.form-footer-text a {
+  color: #040c16;
+  text-decoration: underline;
+}
