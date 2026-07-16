@@ -262,3 +262,41 @@ p{ font-size: 1.1rem; max-width: 500px; opacity: 0.9;}
   color: white;
   border-color: #0b2d49;
 }
+
+/*footer section*/
+/* Dark background for the whole footer */
+.footer {
+  background: #c4c0c0;
+  color: #000000;
+  padding: 10px 20px;
+  font-family: sans-serif;
+}
+
+/* Align the 3 boxes side-by-side */
+.footer-sections {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+/* Make links stack vertically and remove underlines */
+.footer-box a {
+  display: block;
+  color: #000000;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+/*  hover effect */
+.footer-box a:hover {
+  color: #ff6b00;
+}
+
+/* horisantal line and copyright at the bottom */
+.footer-bottom {
+  border-top: 1px solid #333;
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 15px;
+  color: #000000;
+}
