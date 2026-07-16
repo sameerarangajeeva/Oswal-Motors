@@ -41,7 +41,7 @@ body{
     
 }
 
-body {
+.homepage {
     background-image: url("../images/bacgroundimage.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
